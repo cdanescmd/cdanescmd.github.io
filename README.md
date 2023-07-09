@@ -1,6 +1,6 @@
 # Security Engineer
 
-#### Technical Skills: Linux, Intrusion Detection, Incident Response, Penetration Testing
+#### Technical Skills: Network Security, Intrusion Detection, Incident Response, Penetration Testing
 
 ## Education
 - Bachelor's, Computer Science | University of Nebraska (_August 2025_)							       		

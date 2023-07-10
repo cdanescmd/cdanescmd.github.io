@@ -13,7 +13,7 @@
 <img align="left" alt="GitHub" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
 <br />
 
- <h3> My Cybersecurity Transition</h3></summary>
+ <h3> My Cybersecurity Transition</h3>
    I recently transferred to the University of Nebraska to pursue a career in Cybersecurity. I've always been fascinated with technology: wanting to know how things work, taking apart/putting together computers, mobile devices, etc. I never worked in the field or thought it was a possibility for me to work in tech. I (unfortunately) spent a lot of years working in industries that I didn't find any purpose in. However, those different industries afforded me the opportunity to see technology in a different way. I became curious about the backend aspects of technology. When working in customer service, I learned more about SaaS and similar cloud computing platforms. When working as a production worker, I wanted to know more about the technology that kept things moving. Alternatively, what technology could shut everything down? I realized as time progressed, the world of technology has continued to evolve. Technology is all around around us. Whether it be IoTs or AI, these advancements have made humans more susceptible to cyberthreats. While many are enjoying the consumption of tech (as do I from time to time), I have always wanted to contribute to keeping us safe while we do so. Studying Cybersecurity this past year (both academically, and personally) has given me purpose and a created a life-long challenge as well. So...here I am.
 
 ## Education

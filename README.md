@@ -23,10 +23,10 @@
 
 ## Projects
 ### Home Lab
-### Web Design
 
-Clothing Store: https://www.antisocialstore.us/
-Music Store: https://www.freshondatrack.com
+### Web Design
+- Clothing Store: https://www.antisocialstore.us/
+- Music Store: https://www.freshondatrack.com/
 
 ## Recent Events
 ### CTFs
@@ -34,8 +34,9 @@ Music Store: https://www.freshondatrack.com
 - TheCyberCTF (_July 8th_)
 
 ### Cybersecurity Events
-SANS New2Cyber Summit 2023: Reskilling Edition - Live Online - (_February 15th_)
-SANS Cybersecurity Leadership Summit 2023 - (_March 28th_)
+- SANS New2Cyber Summit 2023: Reskilling Edition - Live Online - (_February 15th_)
+- SANS Cybersecurity Leadership Summit 2023 - Live Online - (_March 28th_)
+- The Diana Initiative: Lead The Change - Las Vegas, NV - (_August 7th_) 
 
 ![Cleniq's GitHub stats](https://github-readme-stats.vercel.app/api?username=cdanescmd&theme=dark&show_icons=true)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cdanescmd&layout=compact)

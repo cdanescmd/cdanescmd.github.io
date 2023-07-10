@@ -32,6 +32,6 @@ Used **AppLab** to
 - TheCyberCTF (_July 8th_)
 ### Cybersecurity Events
 
-![Cleniq's GitHub stats](https://github-readme-stats.vercel.app/api?username=freshcmd&theme=dark&show_icons=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=freshcmd&layout=compact)
+![Cleniq's GitHub stats](https://github-readme-stats.vercel.app/api?username=cdanescmd&theme=dark&show_icons=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cdanescmd&layout=compact)
 

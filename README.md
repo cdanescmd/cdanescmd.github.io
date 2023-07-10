@@ -23,14 +23,19 @@
 
 ## Projects
 ### Home Lab
-### Application Design
-Used **AppLab** to 
+### Web Design
 
-## Events
+Clothing Store: https://www.antisocialstore.us/
+Music Store: https://www.freshondatrack.com
+
+## Recent Events
 ### CTFs
 - Target CyberDefense Challange (_June 16th - July 6th_)
 - TheCyberCTF (_July 8th_)
+
 ### Cybersecurity Events
+SANS New2Cyber Summit 2023: Reskilling Edition - Live Online - (_February 15th_)
+SANS Cybersecurity Leadership Summit 2023 - (_March 28th_)
 
 ![Cleniq's GitHub stats](https://github-readme-stats.vercel.app/api?username=cdanescmd&theme=dark&show_icons=true)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cdanescmd&layout=compact)

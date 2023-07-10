@@ -40,5 +40,5 @@ Used **AppLab** to
 - Target CyberDefense Challange (_June 16th - July 6th_)
 - TheCyberCTF (_July 8th_)
 ### Cybersecurity Events
-
+![Cleniq's GitHub stats](https://github-readme-stats.vercel.app/api?username=freshcmd&theme=dark&show_icons=true)
 

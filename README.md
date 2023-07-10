@@ -1,4 +1,4 @@
-[![MasterHead](images/csbg.gif)]
+![MasterHead](images/csbg.gif)
 # Security Engineer
 
 #### Technical Skills: Network Security, Intrusion Detection, Incident Response, Penetration Testing

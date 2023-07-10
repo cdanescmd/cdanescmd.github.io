@@ -1,4 +1,4 @@
-[![MasterHead](https://tenor.com/view/background-khaoticfuture-gif-26445101)]
+[![MasterHead](images/csbg.gif)]
 # Security Engineer
 
 #### Technical Skills: Network Security, Intrusion Detection, Incident Response, Penetration Testing

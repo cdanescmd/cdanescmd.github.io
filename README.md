@@ -1,7 +1,7 @@
 ![MasterHead](images/csbg.gif)
-# Security Engineer
+# Sophomore Cybersecurity Major
 
-#### Technical Skills: Network Security, Intrusion Detection, Incident Response, Penetration Testing
+#### Interests: Network Security, Intrusion Detection, Incident Response, Penetration Testing
 
 ### 🧰 Languages and Tools
 
@@ -25,8 +25,8 @@
 ### Home Lab
 
 ### Web Design
-- Clothing Store: https://www.antisocialstore.us/
 - Music Store: https://www.freshondatrack.com/
+- Clothing Store: https://www.antisocialstore.us/
 
 ## Recent Events
 ### CTFs
@@ -37,6 +37,8 @@
 - SANS New2Cyber Summit 2023: Reskilling Edition - Live Online - (_February 15th_)
 - SANS Cybersecurity Leadership Summit 2023 - Live Online - (_March 28th_)
 - The Diana Initiative: Lead The Change - Las Vegas, NV - (_August 7th_) 
+
+
 
 ![Cleniq's GitHub stats](https://github-readme-stats.vercel.app/api?username=cdanescmd&theme=dark&show_icons=true)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cdanescmd&layout=compact)

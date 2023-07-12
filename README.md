@@ -25,8 +25,9 @@
 ### Home Lab
 
 ### Web Design
-- Music Store: https://www.freshondatrack.com/
-- Clothing Store: https://www.antisocialstore.us/
+- Clothing Store: https://www.theantisocialstore.com/
+- Music Services Store: https://www.freshondatrack.com/
+
 
 ## Recent Events
 ### CTFs

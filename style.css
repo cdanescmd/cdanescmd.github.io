@@ -12,10 +12,10 @@
 }
 
 :root {
-    --bg-color: #000000;
-    --second-bg-color: #323946;
-    --text-color: #fff;
-    --main-color: #009cff;
+    --bg-color: #f0efec;
+    --second-bg-color: #e3e6e0;
+    --text-color: #000;
+    --main-color: #1848a0;
 }
 
 *::selection {

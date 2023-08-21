@@ -12,10 +12,10 @@
 }
 
 :root {
-    --bg-color: #f0efec;
-    --second-bg-color: #e3e6e0;
-    --text-color: #000;
-    --main-color: #1848a0;
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
 }
 
 *::selection {
@@ -196,16 +196,16 @@ span {
     margin: 2rem 0 3rem;
 }
 
-.experience {
+.services {
     min-height: auto;
     padding-bottom: 10rem;
 }
 
-.experience h2 {
+.services h2 {
     margin-bottom: 5rem;
 }
 
-.experience-container {
+.services-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -213,7 +213,7 @@ span {
     gap: 2rem;
 }
 
-.experience-container .experience-box {
+.services-container .services-box {
     flex: 1 1 30rem;
     background: var(--second-bg-color);
     padding: 3rem 2rem 4rem;
@@ -223,21 +223,21 @@ span {
     transition: .5s ease;
 }
 
-.experience-container .experience-box:hover {
+.services-container .services-box:hover {
     border-color: var(--main-color);
     transform: scale(1.02);
 }
 
-.experience-box i {
+.services-box i {
     font-size: 7rem;
     color: var(--main-color);
 }
 
-.experience-box h3 {
+.services-box h3 {
     font-size: 2.6rem;
 }
 
-.experience-box p {
+.services-box p {
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
 }

@@ -3,11 +3,11 @@
 
 # Introduction
 
-I am a junior Cybersecurity Major with a profound interest in technology and a dedication to solving complex problems.
+I'm an IT professional passionate about cybersecurity and risk management. With a background in compliance analysis and technical support in the finance sector, I have developed strong skills in identifying fraud patterns and ensuring regulatory adherence. Currently, I am focused on expanding my technical skills through practical projects in threat analysis and log management while pursuing certifications such as CompTIA Security+ and CompTIA Network+. I am eager to contribute to a dynamic team where I can utilize my analytical insights and technical expertise to enhance organizational security.
 
 ## Objective
 
-My journey in Computer Science has led me to develop a passion for cybersecurity, and I am now eager to transition into this field, specifically aiming to join a Security Operations Center (SOC) as a Tier 1 Analyst.
+Seeking to leverage hands-on experience in cybersecurity and fraud detection in a higher-level SOC Analyst, Compliance, or Fraud Analyst role. Committed to enhancing organizational security through advanced threat analysis, regulatory compliance, and effective risk management strategies.
 
 ## Skills
 

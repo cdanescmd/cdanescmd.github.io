@@ -3,15 +3,14 @@ layout: default
 title: Home
 ---
 
-# Welcome!
-
+# Welcome...
 <div style="text-align: center;">
   <img src="assets/icons/morpheus.gif" alt="Animated Computer" style="width: 300px; height: auto;">
 </div>
 
 ---
 
-## About Me
+# I'm Cleniq!
 **`Security Enthusiast (InfoSec|Compliance Analyst)`**
 
 I am a cybersecurity professional with a strong foundation in technical support, risk management, and practical hands-on projects. I’ve built virtual labs, automated workflows, and conducted vulnerability assessments to gain deep insights into modern security challenges. My work demonstrates a commitment to continuous learning and a proactive approach to safeguarding systems.
@@ -78,8 +77,6 @@ I am a cybersecurity professional with a strong foundation in technical support,
     <img src="https://img.shields.io/badge/-Network%2B-007ACC?&style=for-the-badge&logo=CompTIA&logoColor=white" />
     <img src="https://img.shields.io/badge/-Certified%20Ethical%20Hacker%20(in%20progress)-purple?&style=for-the-badge&logo=hack-the-box&logoColor=white" />
 </div>
-
----
 
 ## Contact
 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/cdanes1)

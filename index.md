@@ -18,10 +18,10 @@ I am a cybersecurity professional with a strong foundation in technical support,
 
 | **Skill**                                   | **Associated Projects**                           |
 |---------------------------------------------|--------------------------------------------------|
-| SIEM Implementation and Log Analysis        | [SIEM & Log Analysis Lab](#labs/siem-log-analysis.html)                 |
-| Threat Hunting and Network Traffic Analysis | [Detection Lab](#labs/threat-hunting.md)                 |
-| Security Automation and Scripting           | [Security Automation Lab](#labs/security-automation.md) |
-| Incident Reporting and Documentation        | [Detection Lab](#labs/incident-reporting-lab.md)                 |
+| SIEM Implementation and Log Analysis        | [SIEM & Log Analysis Lab](labs/siem-log-analysis.html)                 |
+| Threat Hunting and Network Traffic Analysis | [Detection Lab](labs/threat-hunting.md)                 |
+| Security Automation and Scripting           | [Security Automation Lab](labs/security-automation.md) |
+| Incident Reporting and Documentation        | [Detection Lab](labs/incident-reporting-lab.md)                 |
 | Vulnerability Assessment and Reporting      | [Vulnerability Management Lab](labs/vulnerability-management.md) |
 
 ---

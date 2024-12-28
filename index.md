@@ -4,7 +4,6 @@ title: Home
 ---
 
 # Welcome to My Cybersecurity Portfolio
-Explore my technical expertise, hands-on projects, and passion for solving complex cybersecurity challenges.
 
 <div style="text-align: center;">
   <img src="assets/icons/morpheus.gif" alt="Animated Computer" style="width: 300px; height: auto;">

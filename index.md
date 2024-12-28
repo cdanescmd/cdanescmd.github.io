@@ -38,9 +38,9 @@ I am a cybersecurity professional with a strong foundation in technical support,
 </div>
 
 ### Vulnerability Scanning
-</div>
-    <img src="https://img.shields.io/badge/-Nessus-1f77b4?&style=for-the-badge&logo=tenable&logoColor=white" alt="Nessus Badge" />
-    <img src="https://img.shields.io/badge/-OpenVAS-009639?&style=for-the-badge&logo=openvpn&logoColor=white" alt="OpenVAS Badge" />
+<div>
+    <img src="https://img.shields.io/badge/-Nessus-1f77b4?&style=for-the-badge&logo=tenable&logoColor=white" />
+    <img src="https://img.shields.io/badge/-OpenVAS-009639?&style=for-the-badge&logo=openvpn&logoColor=white" />
 </div>
 
 ### Network Analysis
@@ -50,9 +50,9 @@ I am a cybersecurity professional with a strong foundation in technical support,
 </div>
 
 ### Automation and Scripting
-</div>
-     <img src="https://img.shields.io/badge/-Python-3776AB?&style=for-the-badge&logo=python&logoColor=white" />
-     <img src="https://img.shields.io/badge/-Bash-4EAA25?&style=for-the-badge&logo=gnubash&logoColor=white" />
+<div>
+    <img src="https://img.shields.io/badge/-Python-3776AB?&style=for-the-badge&logo=python&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Bash-4EAA25?&style=for-the-badge&logo=gnubash&logoColor=white" />
 </div>
 
 ### Cloud Platforms

@@ -81,14 +81,14 @@ I am a cybersecurity professional with a strong foundation in technical support,
 ### Cloud Platforms
 <div>
     <img src="https://img.shields.io/badge/-Microsoft%20Azure-0078D4?&style=for-the-badge&logo=microsoftazure&logoColor=white" />
-</div>
+<div>
 
 ## Certifications
 <div>
     <img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />
     <img src="https://img.shields.io/badge/-Network%2B-007ACC?&style=for-the-badge&logo=CompTIA&logoColor=white" />
     <img src="https://img.shields.io/badge/-Certified%20Ethical%20Hacker%20(in%20progress)-purple?&style=for-the-badge&logo=hack-the-box&logoColor=white" />
-</div>
+<div>
 
 ---
 

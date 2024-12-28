@@ -58,7 +58,7 @@ I am a cybersecurity professional with a strong foundation in technical support,
 ### Cloud Platforms
 </div>
      <img src="https://img.shields.io/badge/-Microsoft%20Azure-0078D4?&style=for-the-badge&logo=microsoftazure&logoColor=white" />  
-
+</div>
 
 ## Certifications
 <div>

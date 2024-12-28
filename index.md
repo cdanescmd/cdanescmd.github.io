@@ -62,4 +62,31 @@ I am a cybersecurity professional with a strong foundation in technical support,
 
 ---
 
+### **3. Vulnerability Management Lab**
+- **Overview:**  
+  Conducted vulnerability scans and practiced analyzing security gaps in a simulated environment.  
+- **Key Features:**  
+  - Used tools like Nessus and OpenVAS to identify and prioritize vulnerabilities.  
+  - Created mock remediation reports to address identified risks.  
+  - Explored risk assessment techniques to enhance overall system security.  
+- **Skills Demonstrated:**  
+  Vulnerability Assessment, Risk Management, Reporting.
+
+---
+
+### **4. Network Traffic Analysis Lab**
+- **Overview:**  
+  Monitored network traffic using analysis tools to detect and document suspicious behavior.  
+- **Key Features:**  
+  - Used Wireshark and TCPDump to capture and analyze packets.  
+  - Explored traffic patterns to identify potential indicators of compromise.  
+  - Documented findings for educational purposes and personal skill-building.  
+- **Skills Demonstrated:**  
+  Network Analysis, Threat Hunting, Documentation.  
+
+---
+
+## Contact
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/cdanes1)
+
 ###

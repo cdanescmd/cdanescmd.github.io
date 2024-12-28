@@ -94,51 +94,63 @@ I am a cybersecurity professional with a strong foundation in technical support,
 
 ## Featured Labs and Projects
 
-### **1. Detection Lab**
+### **1. SIEM Implementation & Log Analysis**
 - **Overview:**  
-  Created a lab environment to test basic log analysis and detection techniques.  
+  Focused on deploying and configuring a Security Information and Event Management (SIEM) platform to collect, analyze, and correlate log data. This lab simulates real-world scenarios to identify threats through log ingestion and actionable alerts. 
 - **Key Features:**  
-  - Configured tools like Splunk and ELK Stack for log ingestion and analysis.  
-  - Simulated network traffic to identify potential security events and anomalies.  
-  - Gained hands-on experience with correlating logs and documenting findings.  
+  - Deployed Splunk and ELK Stack to ingest and analyze logs from endpoints and network devices.  
+  - Created custom dashboards to monitor system activities and identify anomalies. 
+  - Configured detection rules to respond to common attack patterns like brute force attempts and unauthorized access.  
 - **Skills Demonstrated:**  
-  SIEM Implementation, Log Analysis, Threat Hunting.  
+  SIEM Deployment, Log Parsing, Threat Detection, Dashboard Design.  
 
 ---
 
-### **2. Security Automation Lab**
+### **2. Threat Hunting and Network Traffic Analysis Lab**
 - **Overview:**  
-  Experimented with automating repetitive security tasks using scripting tools.  
+  Focused on proactively identifying threats through network traffic analysis. Used tools like Wireshark and Zeek to monitor network activity and detect patterns indicative of malicious behavior.
 - **Key Features:**  
-  - Developed Python scripts to parse logs and identify simple patterns in security data.  
-  - Tested SOAR tools like Shuffle to explore automation capabilities.  
-  - Documented workflows to streamline common security operations.  
+  - Captured and analyzed network traffic to detect anomalies such as DNS tunneling and lateral movement.
+  - Simulated attack scenarios to observe real-world IOCs (Indicators of Compromise).  
+  - Documented findings and recommended mitigation strategies for identified threats.  
 - **Skills Demonstrated:**  
-  Automation, Scripting, Workflow Optimization.  
+  Packet Analysis, Threat Hunting, IOC Identification, Network Security.  
 
 ---
 
-### **3. Vulnerability Management Lab**
+### **3. Security Automation and Scripting Lab**
 - **Overview:**  
-  Conducted vulnerability scans and practiced analyzing security gaps in a simulated environment.  
+  Demonstrated the use of scripting and automation tools to streamline repetitive security tasks. Leveraged Python, Bash, and SOAR tools to automate workflows and improve operational efficiency.  
 - **Key Features:**  
-  - Used tools like Nessus and OpenVAS to identify and prioritize vulnerabilities.  
-  - Created mock remediation reports to address identified risks.  
-  - Explored risk assessment techniques to enhance overall system security.  
+  - Developed Python scripts to automate log parsing and correlate alerts from multiple sources.  
+  - Integrated SOAR tools to build and test playbooks for automated incident response.  
+  - Documented workflows to simplify and optimize routine security operations.  
 - **Skills Demonstrated:**  
-  Vulnerability Assessment, Risk Management, Reporting.
+  Python Scripting, SOAR Integration, Workflow Optimization, Security Automation.
 
 ---
 
-### **4. Network Traffic Analysis Lab**
+### **4. Incident Reporting and Documentation Lab**
 - **Overview:**  
-  Monitored network traffic using analysis tools to detect and document suspicious behavior.  
+  Simulated security incidents to analyze and document them effectively. Produced professional incident reports aimed at both technical and non-technical stakeholders.  
 - **Key Features:**  
-  - Used Wireshark and TCPDump to capture and analyze packets.  
-  - Explored traffic patterns to identify potential indicators of compromise.  
-  - Documented findings for educational purposes and personal skill-building.  
+  - Simulated various incidents like phishing attempts and malware infections. 
+  - Created incident reports detailing root cause analysis, impact assessment, and remediation steps.  
+  - Developed post-incident action plans to improve the organization’s response readiness.  
 - **Skills Demonstrated:**  
-  Network Analysis, Threat Hunting, Documentation.  
+  Incident Analysis, Root Cause Documentation, Report Writing, Stakeholder Communication.  
+
+---
+
+### **5. Vulnerability Assessment and Reporting Lab**
+- **Overview:**  
+  Hands-on experience in identifying, assessing, and reporting vulnerabilities in a simulated environment. Used tools like Nessus and OpenVAS to improve system security posture.  
+- **Key Features:**  
+  - Conducted vulnerability scans to identify critical weaknesses and misconfigurations. 
+  - Analyzed results to prioritize remediation efforts based on severity and risk impact.  
+  - Created professional vulnerability reports with actionable recommendations.  
+- **Skills Demonstrated:**  
+  Vulnerability Scanning, Risk Assessment, Remediation Planning, Professional Reporting.
 
 ---
 

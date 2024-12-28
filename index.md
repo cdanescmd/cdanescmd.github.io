@@ -36,6 +36,14 @@ I am a cybersecurity professional with a strong foundation in technical support,
 
 ---
 
+## Certifications
+
+- ![Security+](assets/icons/security-plus-blue.png) CompTIA Security+
+- ![Network+](assets/icons/network-plus-green.png) CompTIA Network+
+- ![CEH](assets/icons/ceh-purple.png) Certified Ethical Hacker (in progress)
+
+---
+
 ## Featured Labs and Projects
 
 ### **1. Detection Lab**

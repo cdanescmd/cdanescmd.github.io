@@ -60,29 +60,6 @@ I am a cybersecurity professional with a strong foundation in technical support,
      <img src="https://img.shields.io/badge/-Microsoft%20Azure-0078D4?&style=for-the-badge&logo=microsoftazure&logoColor=white" />  
 </div>
 
-### Vulnerability Scanning
-<div>
-    <img src="https://img.shields.io/badge/-Nessus-1f77b4?&style=for-the-badge&logo=tenable&logoColor=white" />
-    <img src="https://img.shields.io/badge/-OpenVAS-009639?&style=for-the-badge&logo=openvpn&logoColor=white" />
-</div>
-
-### Network Analysis
-<div>
-    <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Zeek-777BB4?&style=for-the-badge&logo=Zeek&logoColor=white" />
-</div>
-
-### Automation and Scripting
-<div>
-    <img src="https://img.shields.io/badge/-Python-3776AB?&style=for-the-badge&logo=python&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Bash-4EAA25?&style=for-the-badge&logo=gnubash&logoColor=white" />
-</div>
-
-### Cloud Platforms
-<div>
-    <img src="https://img.shields.io/badge/-Microsoft%20Azure-0078D4?&style=for-the-badge&logo=microsoftazure&logoColor=white" />
-</div>
-
 ## Certifications
 <div>
     <img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />

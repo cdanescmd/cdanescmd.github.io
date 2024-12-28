@@ -1,0 +1,21 @@
+# Site configuration for the Hacker theme
+
+title: CLENIQ's Cybersecurity Portfolio
+description: A showcase of my technical expertise, hands-on projects, and passion for cybersecurity.
+author: CLENIQ
+baseurl: "" # Leave blank unless the site is in a subdirectory
+url: "https://<cdanescmd>.github.io/<cdanescmd.github.io>"
+
+# Theme
+remote_theme: pages-themes/hacker@v0.2.0
+
+# Markdown settings
+markdown: kramdown
+
+# Plugins (optional)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Other settings (optional)
+show_downloads: true # Displays a download link for the repository

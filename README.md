@@ -12,7 +12,7 @@ title: Home
 ---
 
 # I'm Cleniq.
-**`Security Enthusiast (InfoSec|Compliance Analyst)`**
+**`Security Enthusiast (InfoSec|Compliance)`**
 
 I am a cybersecurity professional with a strong foundation in technical support, risk management, and practical hands-on projects. I’ve built virtual labs, automated workflows, and conducted vulnerability assessments to gain deep insights into modern security challenges. My work demonstrates a commitment to continuous learning and a proactive approach to safeguarding systems.
 

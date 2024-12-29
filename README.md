@@ -78,7 +78,6 @@ I am a cybersecurity professional with a strong foundation in technical support,
     <img src="https://img.shields.io/badge/-Network%2B-007ACC?&style=for-the-badge&logo=CompTIA&logoColor=white" />
     <img src="https://img.shields.io/badge/-Certified%20Ethical%20Hacker%20(in%20progress)-purple?&style=for-the-badge&logo=hack-the-box&logoColor=white" />
 </div>
----
 
 ## Contact
 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/cdanes1)

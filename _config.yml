@@ -13,10 +13,6 @@ remote_theme: pages-themes/hacker@v0.2.0
 markdown: kramdown
 
 # Plugins (optional)
-plugins:
-  - jekyll-remote-theme
-  - jekyll-seo-tag
-  - jekyll-sitemap
 
 # Other settings (optional)
 show_downloads: true # Displays a download link for the repository

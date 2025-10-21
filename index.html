@@ -1,483 +1,402 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Complete Responsive Personal Portfolio Website Using HTML CSS & JavaScript | Codehal</title>
-    <!-- boxicons -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <!-- custom css -->
-    <link rel="stylesheet" href="css/style.css">
-</head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CLENIQ | Cybersecurity Portfolio</title>
 
+  <!-- Boxicons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
 <body>
 
-    <!-- header -->
-    <header class="active">
-        <a href="#" class="logo">Lucius.</a>
+  <!-- header -->
+  <header class="active">
+    <a href="#" class="logo">CLENIQ</a>
 
-        <i class='bx bx-menu' id="menu-icon"></i>
+    <i class='bx bx-menu' id="menu-icon"></i>
 
-        <nav>
-            <a href="#" class="active">Home</a>
-            <a href="#">Services</a>
-            <a href="#">Resume</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Contact</a>
-        </nav>
-    </header>
+    <nav>
+      <a href="#" class="active">Home</a>
+      <a href="#resume">Resume</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <!-- bars background -->
-    <div class="bars-box active">
-        <div class="bar" style="--i:6;"></div>
-        <div class="bar" style="--i:5;"></div>
-        <div class="bar" style="--i:4;"></div>
-        <div class="bar" style="--i:3;"></div>
-        <div class="bar" style="--i:2;"></div>
-        <div class="bar" style="--i:1;"></div>
+  <!-- bars background -->
+  <div class="bars-box active">
+    <div class="bar" style="--i:6;"></div>
+    <div class="bar" style="--i:5;"></div>
+    <div class="bar" style="--i:4;"></div>
+    <div class="bar" style="--i:3;"></div>
+    <div class="bar" style="--i:2;"></div>
+    <div class="bar" style="--i:1;"></div>
+  </div>
+
+  <!-- HOME section -->
+  <section class="home active" id="home">
+    <div class="home-detail">
+      <h1>CLENIQ DANES</h1>
+      <h2>I'm an
+        <span style="--i:4;" data-text="IT">IT</span>
+        <span style="--i:3;" data-text="SOC Analyst">SOC Analyst</span>
+        <span style="--i:2;" data-text="SysAdmin">SysAdmin</span>
+      </h2>
+
+      <p>
+        System Administrator with hands-on experience managing user access, endpoints, and SaaS platforms
+        in cloud-first environments. Skilled in Entra ID, Intune, M365, and Google Workspace administration.
+        Strong foundation in identity & access management, endpoint security, SOC coordination, and basic scripting
+        to automate routine tasks.
+      </p>
+
+      <div class="btn-sci">
+        <a class="btn" href="https://cdanescmd.github.io" target="_blank" rel="noopener">View GitHub Pages</a>
+        <div class="sci">
+          <a href="https://github.com/cdanescmd" target="_blank" rel="noopener"><i class='bx bxl-github'></i></a>
+          <a href="https://www.linkedin.com/in/cdanes" target="_blank" rel="noopener"><i class='bx bxl-linkedin'></i></a>
+          <a href="mailto:cdanes1@yahoo.com"><i class='bx bx-envelope'></i></a>
+        </div>
+      </div>
     </div>
 
-    <!-- home section -->
-    <section class="home active">
-        <div class="home-detail">
-            <h1>Lucius Meshach</h1>
-            <h2>I'm a
-                <span style="--i:4;" data-text="Coder">Coder</span>
-                <span style="--i:3;" data-text="Youtuber">Youtuber</span>
-                <span style="--i:2;" data-text="Blogger">Blogger</span>
-                <span style="--i:1;" data-text="Designer">Designer</span>
-            </h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rem nulla sunt, dolores quo sint nobis autem magnam at, cupiditate id sapiente necessitatibus, reprehenderit animi alias dolore obcaecati fugit expedita.</p>
-            <div class="btn-sci">
-                <a href="#" class="btn">Download CV</a>
-                <div class="sci">
-                    <a href="#"><i class='bx bxl-github'></i></a>
-                    <a href="#"><i class='bx bxl-linkedin'></i></a>
-                    <a href="#"><i class='bx bxl-discord-alt'></i></a>
-                    <a href="#"><i class='bx bxl-youtube'></i></a>
-                </div>
+    <div class="home-img">
+      <div class="img-box">
+        <div class="img-item">
+          <!-- Optional: put a headshot at images/home.png -->
+          <img src="images/home.png" alt="CLENIQ DANES" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESUME section -->
+  <section class="resume" id="resume">
+    <div class="resume-container">
+      <div class="resume-box">
+        <h2>Why Hire Me?</h2>
+        <p class="desc">
+          Practical experience supporting onboarding/offboarding, identity & access management, endpoint configuration,
+          and SOC collaboration. I streamline processes with clear documentation and practical automation (PowerShell/Bash).
+        </p>
+
+        <button class="resume-btn active">Experience</button>
+        <button class="resume-btn">Education</button>
+        <button class="resume-btn">Skills</button>
+        <button class="resume-btn">Certifications</button>
+      </div>
+
+      <div class="resume-box">
+        <!-- EXPERIENCE (default active) -->
+        <div class="resume-detail experience active">
+          <h2 class="heading">My <span>Experience</span></h2>
+          <p class="desc">Selected roles showing practical IT, support, and SOC-related experience.</p>
+
+          <div class="resume-list">
+            <div class="resume-item">
+              <p class="year">Apr 2024 – Oct 2025</p>
+              <h3>Compliance Specialist</h3>
+              <p class="company">LPL Financial (remote)</p>
+              <p>
+                Supported onboarding and offboarding by handling account provisioning, access management,
+                and endpoint setup. Maintained technical documentation and onboarding workflows in SharePoint
+                and Teams to streamline service delivery. Coordinated with IT and legal teams to manage user
+                access and maintain proper permissions.
+              </p>
             </div>
+
+            <div class="resume-item">
+              <p class="year">Sept 2023 – Apr 2024</p>
+              <h3>Financial Data Analyst</h3>
+              <p class="company">Charles Schwab (Omaha, NE — hybrid)</p>
+              <p>
+                Reviewed and analyzed large compliance document sets to identify discrepancies and inconsistencies.
+                Communicated findings to compliance/legal teams and tracked follow-ups to support audit-readiness.
+              </p>
+            </div>
+
+            <div class="resume-item">
+              <p class="year">Jan 2021 – Aug 2023</p>
+              <h3>Member Support & SOC Analyst I</h3>
+              <p class="company">LinkedIn (remote)</p>
+              <p>
+                Delivered Tier 1–2 technical and security support to 300+ remote users, enforcing MFA and endpoint compliance,
+                triaging tickets via Zendesk, performing basic log reviews, and escalating incidents to senior SOC analysts.
+                Assisted with monitoring alerts and investigating potential threats.
+              </p>
+            </div>
+          </div>
         </div>
 
-        <div class="home-img">
-            <div class="img-box">
-                <div class="img-item">
-                    <img src="images/home.png">
-                </div>
+        <!-- EDUCATION -->
+        <div class="resume-detail education">
+          <h2 class="heading">My <span>Education</span></h2>
+          <p class="desc">Formal education and continuous learning relevant to IT and cybersecurity.</p>
+
+          <div class="resume-list">
+            <div class="resume-item">
+              <p class="year">B.S. (in Progress)</p>
+              <h3>Information Technology — Western Governors University (WGU)</h3>
+              <p class="company">Transferred from University of Nebraska — Omaha (Cybersecurity program)</p>
             </div>
+
+            <div class="resume-item">
+              <p class="year">2017</p>
+              <h3>A.A. Business Administration</h3>
+              <p class="company">University of Phoenix</p>
+            </div>
+          </div>
         </div>
-    </section>
 
-    <!-- services section -->
-    <section class="services">
-        <h2 class="heading">My <span>Services</span></h2>
-        <div class="services-container">
-            <div class="services-box">
-                <div class="icon">
-                    <i class='bx bx-code-alt'></i>
-                    <a href="#"><i class='bx bx-arrow-back'></i></a>
-                </div>
-                <h3>Web Development</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ab commodi est dolor enim. Illo.</p>
-            </div>
+        <!-- SKILLS -->
+        <div class="resume-detail skills">
+          <h2 class="heading">My <span>Skills</span></h2>
+          <p class="desc">Technical skills and tools applied in day-to-day admin and SOC-related tasks.</p>
 
-            <div class="services-box">
-                <div class="icon">
-                    <i class='bx bxs-paint'></i>
-                    <a href="#"><i class='bx bx-arrow-back'></i></a>
-                </div>
-                <h3>UI/UX Design</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ab commodi est dolor enim. Illo.</p>
+          <div class="resume-list">
+            <div class="resume-item">
+              <i class='bx bxl-windows'></i>
+              <span>Windows / Active Directory / Entra ID</span>
             </div>
-
-            <div class="services-box">
-                <div class="icon">
-                    <i class='bx bx-palette'></i>
-                    <a href="#"><i class='bx bx-arrow-back'></i></a>
-                </div>
-                <h3>Graphic Design</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ab commodi est dolor enim. Illo.</p>
+            <div class="resume-item">
+              <i class='bx bxl-linux'></i>
+              <span>Linux (basic administration)</span>
             </div>
-
-            <div class="services-box">
-                <div class="icon">
-                    <i class='bx bx-trending-up'></i>
-                    <a href="#"><i class='bx bx-arrow-back'></i></a>
-                </div>
-                <h3>SEO</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ab commodi est dolor enim. Illo.</p>
+            <div class="resume-item">
+              <i class='bx bxl-apple'></i>
+              <span>macOS / Jamf (familiar)</span>
             </div>
-
-            <div class="services-box">
-                <div class="icon">
-                    <i class='bx bx-slideshow'></i>
-                    <a href="#"><i class='bx bx-arrow-back'></i></a>
-                </div>
-                <h3>Video Editing</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ab commodi est dolor enim. Illo.</p>
+            <div class="resume-item">
+              <i class='bx bxl-google'></i>
+              <span>Google Workspace Admin</span>
             </div>
-
-            <div class="services-box">
-                <div class="icon">
-                    <i class='bx bx-camera'></i>
-                    <a href="#"><i class='bx bx-arrow-back'></i></a>
-                </div>
-                <h3>Photography</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ab commodi est dolor enim. Illo.</p>
+            <div class="resume-item">
+              <i class='bx bxl-microsoft'></i>
+              <span>Intune, M365, SharePoint</span>
             </div>
+            <div class="resume-item">
+              <i class='bx bx-shield'></i>
+              <span>MFA, IAM, Endpoint Security, SOC coordination</span>
+            </div>
+            <div class="resume-item">
+              <i class='bx bx-code-alt'></i>
+              <span>PowerShell, Bash (scripting & automation)</span>
+            </div>
+            <div class="resume-item">
+              <i class='bx bx-server'></i>
+              <span>Azure / AWS (lab experience), OCI</span>
+            </div>
+            <div class="resume-item">
+              <i class='bx bx-book'></i>
+              <span>Monitoring & Ticketing: Zendesk, Jira, SharePoint documentation</span>
+            </div>
+          </div>
         </div>
-    </section>
 
-    <!-- resume section -->
-    <section class="resume">
-        <div class="resume-container">
-            <div class="resume-box">
-                <h2>Why Hire Me?</h2>
-                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum temporibus dolorem ducimus beatae iure amet.</p>
-                <button class="resume-btn active">Experience</button>
-                <button class="resume-btn">Education</button>
-                <button class="resume-btn">Skills</button>
-                <button class="resume-btn">About Me</button>
+        <!-- CERTIFICATIONS -->
+        <div class="resume-detail about">
+          <h2 class="heading">Certifications & <span>Learning</span></h2>
+          <p class="desc">Relevant certifications and ongoing learning.</p>
+
+          <div class="resume-list">
+            <div class="resume-item">
+              <p class="year">Google Cloud (Coursera)</p>
+              <h3>Google Professional Workspace Administrator</h3>
             </div>
 
-            <div class="resume-box">
-                <div class="resume-detail experience active">
-                    <h2 class="heading">My <span>Experience</span></h2>
-                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, exercitationem nihil enim corporis esse facilis tempore assumenda quidem quaerat expedita.</p>
-                    <div class="resume-list">
-                        <div class="resume-item">
-                            <p class="year">2023 - Present</p>
-                            <h3>Frontend Developer</h3>
-                            <p class="company">Abc Corp.</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, dignissimos.</p>
-                        </div>
-                        <div class="resume-item">
-                            <p class="year">2022 - 2023</p>
-                            <h3>Full Stack Developer</h3>
-                            <p class="company">Google</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, dignissimos.</p>
-                        </div>
-                        <div class="resume-item">
-                            <p class="year">2021 - 2022</p>
-                            <h3>Backend Developer</h3>
-                            <p class="company">YouTube</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, dignissimos.</p>
-                        </div>
-                        <div class="resume-item">
-                            <p class="year">2020 - 2021</p>
-                            <h3>Frontend Developer</h3>
-                            <p class="company">Xyz Inc.</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, dignissimos.</p>
-                        </div>
-                        <div class="resume-item">
-                            <p class="year">2019 - 2020</p>
-                            <h3>UI/UX Designer</h3>
-                            <p class="company">Abc Inc.</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, dignissimos.</p>
-                        </div>
-                        <div class="resume-item">
-                            <p class="year">2018 - 2019</p>
-                            <h3>Junior Developer</h3>
-                            <p class="company">Xyz Corp.</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, dignissimos.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="resume-detail education">
-                    <h2 class="heading">My <span>Education</span></h2>
-                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, exercitationem nihil enim corporis esse facilis tempore assumenda quidem quaerat expedita.</p>
-                    <div class="resume-list">
-                        <div class="resume-item">
-                            <p class="year">2024</p>
-                            <h3>Programming Course</h3>
-                            <p class="company">Online Course</p>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, harum.</p>
-                        </div>
-                        <div class="resume-item">
-                            <p class="year">2022 - 2023</p>
-                            <h3>Web Development Bootcamp</h3>
-                            <p class="company">Online Course Platform</p>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, harum.</p>
-                        </div>
-                        <div class="resume-item">
-                            <p class="year">2020</p>
-                            <h3>Certified Web Development</h3>
-                            <p class="company">Online Course</p>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, harum.</p>
-                        </div>
-                        <div class="resume-item">
-                            <p class="year">2017 - 2018</p>
-                            <h3>Doctor of Engineering</h3>
-                            <p class="company">Codehal University</p>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, harum.</p>
-                        </div>
-                        <div class="resume-item">
-                            <p class="year">2015 - 2017</p>
-                            <h3>Master of Computer Science</h3>
-                            <p class="company">Codehal University</p>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, harum.</p>
-                        </div>
-                        <div class="resume-item">
-                            <p class="year">2012 - 2015</p>
-                            <h3>Bachelor of Data Science</h3>
-                            <p class="company">Codehal University</p>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, harum.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="resume-detail skills">
-                    <h2 class="heading">My <span>Skills</span></h2>
-                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, exercitationem nihil enim corporis esse facilis tempore assumenda quidem quaerat expedita.</p>
-                    <div class="resume-list">
-                        <div class="resume-item">
-                            <i class='bx bxl-html5'></i>
-                            <span>HTML5</span>
-                        </div>
-                        <div class="resume-item">
-                            <i class='bx bxl-css3'></i>
-                            <span>CSS3</span>
-                        </div>
-                        <div class="resume-item">
-                            <i class='bx bxl-javascript'></i>
-                            <span>JavaScript</span>
-                        </div>
-                        <div class="resume-item">
-                            <i class='bx bxl-react'></i>
-                            <span>React.js</span>
-                        </div>
-                        <div class="resume-item">
-                            <i class='bx bxl-vuejs'></i>
-                            <span>Vue.js</span>
-                        </div>
-                        <div class="resume-item">
-                            <i class='bx bxl-tailwind-css'></i>
-                            <span>Tailwind CSS</span>
-                        </div>
-                        <div class="resume-item">
-                            <i class='bx bxl-nodejs'></i>
-                            <span>Node.js</span>
-                        </div>
-                        <div class="resume-item">
-                            <i class='bx bxl-mongodb'></i>
-                            <span>MongoDB</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="resume-detail about">
-                    <h2 class="heading">About <span>Me</span></h2>
-                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, exercitationem nihil enim corporis esse facilis tempore assumenda quidem quaerat expedita.</p>
-                    <div class="resume-list">
-                        <div class="resume-item">
-                            <p>Name <span>Lucius Meshach</span></p>
-                        </div>
-                        <div class="resume-item">
-                            <p>Gender <span>Male</span></p>
-                        </div>
-                        <div class="resume-item">
-                            <p>Age <span>32 Years Old</span></p>
-                        </div>
-                        <div class="resume-item">
-                            <p>Status <span>Married</span></p>
-                        </div>
-                        <div class="resume-item">
-                            <p>City <span>San Francisco</span></p>
-                        </div>
-                        <div class="resume-item">
-                            <p>Nationality <span>American</span></p>
-                        </div>
-                        <div class="resume-item">
-                            <p>Experience <span>10+ Years</span></p>
-                        </div>
-                        <div class="resume-item">
-                            <p>Full Time <span>Available</span></p>
-                        </div>
-                        <div class="resume-item">
-                            <p>Freelance <span>Available</span></p>
-                        </div>
-                        <div class="resume-item">
-                            <p>Phone <span>(+12) 345 678 910</span></p>
-                        </div>
-                        <div class="resume-item">
-                            <p>Email <span>lucius@gmail.com</span></p>
-                        </div>
-                        <div class="resume-item">
-                            <p>Languages <span>English, French</span></p>
-                        </div>
-                    </div>
-                </div>
+            <div class="resume-item">
+              <p class="year">In Progress</p>
+              <h3>CompTIA Security+</h3>
             </div>
+
+            <div class="resume-item">
+              <p class="year">In Progress</p>
+              <h3>Microsoft Azure Administrator Associate</h3>
+            </div>
+          </div>
         </div>
-    </section>
 
-    <!-- portfolio section -->
-    <section class="portfolio">
-        <h2 class="heading">Latest <span>Project</span></h2>
-        <div class="portfolio-container">
-            <div class="portfolio-box">
-                <div class="portfolio-detail active">
-                    <p class="numb">01</p>
-                    <h3>Frontend Project</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit asperiores natus rerum saepe. Eum modi assumenda quaerat temporibus.</p>
-                    <div class="tech">
-                        <p>HTML5, CSS3, JavaScript</p>
-                    </div>
-                    <div class="live-github">
-                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
-                        <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
-                    </div>
-                </div>
+      </div>
+    </div>
+  </section>
 
-                <div class="portfolio-detail">
-                    <p class="numb">02</p>
-                    <h3>Full Stack Project</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit asperiores natus rerum saepe. Eum modi assumenda quaerat temporibus.</p>
-                    <div class="tech">
-                        <p>MongoDB, Express.js, React.js, Node.js</p>
-                    </div>
-                    <div class="live-github">
-                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
-                        <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
-                    </div>
-                </div>
+  <!-- PROJECTS section (was Portfolio) -->
+  <section class="portfolio" id="projects">
+    <h2 class="heading">Featured <span>Projects & Labs</span></h2>
 
-                <div class="portfolio-detail">
-                    <p class="numb">03</p>
-                    <h3>Frontend Project</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit asperiores natus rerum saepe. Eum modi assumenda quaerat temporibus.</p>
-                    <div class="tech">
-                        <p>React.js, Tailwind CSS</p>
-                    </div>
-                    <div class="live-github">
-                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
-                        <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
-                    </div>
-                </div>
-
-                <div class="portfolio-detail">
-                    <p class="numb">04</p>
-                    <h3>Full Stack Project</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit asperiores natus rerum saepe. Eum modi assumenda quaerat temporibus.</p>
-                    <div class="tech">
-                        <p>MongoDB, Express.js, AngularJS, Node.js</p>
-                    </div>
-                    <div class="live-github">
-                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
-                        <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
-                    </div>
-                </div>
-
-                <div class="portfolio-detail">
-                    <p class="numb">05</p>
-                    <h3>Frontend Project</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit asperiores natus rerum saepe. Eum modi assumenda quaerat temporibus.</p>
-                    <div class="tech">
-                        <p>Vue.js, Tailwind CSS</p>
-                    </div>
-                    <div class="live-github">
-                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
-                        <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
-                    </div>
-                </div>
-
-                <div class="portfolio-detail">
-                    <p class="numb">06</p>
-                    <h3>Full Stack Project</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit asperiores natus rerum saepe. Eum modi assumenda quaerat temporibus.</p>
-                    <div class="tech">
-                        <p>MongoDB, Express.js, Vue.js, Node.js</p>
-                    </div>
-                    <div class="live-github">
-                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
-                        <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="portfolio-box">
-                <div class="portfolio-carousel">
-                    <div class="img-slide">
-                        <div class="img-item">
-                            <img src="images/portfolio1.jpg">
-                        </div>
-                        <div class="img-item">
-                            <img src="images/portfolio2.jpg">
-                        </div>
-                        <div class="img-item">
-                            <img src="images/portfolio3.jpg">
-                        </div>
-                        <div class="img-item">
-                            <img src="images/portfolio4.jpg">
-                        </div>
-                        <div class="img-item">
-                            <img src="images/portfolio5.jpg">
-                        </div>
-                        <div class="img-item">
-                            <img src="images/portfolio6.jpg">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="navigation">
-                    <button class="arrow-left disabled"><i class='bx bx-chevron-left'></i></button>
-                    <button class="arrow-right"><i class='bx bx-chevron-right'></i></button>
-                </div>
-            </div>
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <!-- Project details (first visible) -->
+        <div class="portfolio-detail active">
+          <p class="numb">01</p>
+          <h3>SIEM Implementation & Log Analysis</h3>
+          <p>Built and tuned SIEM workflows, ingested logs, and performed log analysis to detect anomalies and support investigations.</p>
+          <div class="tech">
+            <p>Splunk, Microsoft Sentinel, Log Parsing, KQL</p>
+          </div>
+          <div class="live-github">
+            <a href="labs/siem-log-analysis.md" target="_blank" rel="noopener"><i class='bx bx-arrow-back'></i><span>View Lab</span></a>
+            <a href="https://github.com/cdanescmd" target="_blank" rel="noopener"><i class='bx bxl-github'></i><span>GitHub</span></a>
+          </div>
         </div>
-    </section>
 
-    <!-- contact section -->
-    <section class="contact">
-        <div class="contact-container">
-            <div class="contact-box">
-                <h2>Let's Work Together</h2>
-                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, voluptatem illo magni similique velit at mollitia corporis quaerat eaque asperiores.</p>
-                <div class="contact-detail">
-                    <i class='bx bxs-phone'></i>
-                    <div class="detail">
-                        <p>Phone</p>
-                        <p>(+12) 345 678 910</p>
-                    </div>
-                </div>
-                <div class="contact-detail">
-                    <i class='bx bxs-envelope'></i>
-                    <div class="detail">
-                        <p>Email</p>
-                        <p>youremail@gmail.com</p>
-                    </div>
-                </div>
-                <div class="contact-detail">
-                    <i class='bx bxs-map'></i>
-                    <div class="detail">
-                        <p>Address</p>
-                        <p>123 Anywhere Street, Any City</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="contact-box">
-                <form action="">
-                    <h2 class="heading">Contact <span>Me!</span></h2>
-                    <div class="field-box">
-                        <input type="text" placeholder="Full Name" required>
-                        <input type="email" placeholder="Email Address" required>
-                        <input type="text" placeholder="Phone Number" required>
-                        <input type="text" placeholder="Email Subject" required>
-                        <textarea name="" id="" placeholder="Your Message" required></textarea>
-                    </div>
-                    <button type="submit" class="btn">Send Message</button>
-                </form>
-            </div>
+        <div class="portfolio-detail">
+          <p class="numb">02</p>
+          <h3>Threat Hunting & Network Traffic Analysis</h3>
+          <p>Performed packet captures and threat-hunting exercises to identify suspicious activity and map attacker behaviors in lab environments.</p>
+          <div class="tech">
+            <p>Wireshark, Zeek, PCAP analysis, Network Forensics</p>
+          </div>
+          <div class="live-github">
+            <a href="labs/threat-hunting.md" target="_blank" rel="noopener"><i class='bx bx-arrow-back'></i><span>View Lab</span></a>
+            <a href="https://github.com/cdanescmd" target="_blank" rel="noopener"><i class='bx bxl-github'></i><span>GitHub</span></a>
+          </div>
         </div>
-    </section>
-    
 
-    <!-- custom js -->
-    <script src="js/script.js"></script>
+        <div class="portfolio-detail">
+          <p class="numb">03</p>
+          <h3>Security Automation & Scripting</h3>
+          <p>Automated repetitive admin and security tasks using PowerShell and Bash to improve operational efficiency.</p>
+          <div class="tech">
+            <p>PowerShell, Bash, Python, Automation</p>
+          </div>
+          <div class="live-github">
+            <a href="labs/security-automation.md" target="_blank" rel="noopener"><i class='bx bx-arrow-back'></i><span>View Lab</span></a>
+            <a href="https://github.com/cdanescmd" target="_blank" rel="noopener"><i class='bx bxl-github'></i><span>GitHub</span></a>
+          </div>
+        </div>
+
+        <div class="portfolio-detail">
+          <p class="numb">04</p>
+          <h3>Incident Reporting & Documentation</h3>
+          <p>Developed incident response templates, runbooks, and documentation to support consistent SOC operations and compliance reviews.</p>
+          <div class="tech">
+            <p>SharePoint, Teams, Runbooks, Documentation</p>
+          </div>
+          <div class="live-github">
+            <a href="labs/incident-reporting-lab.md" target="_blank" rel="noopener"><i class='bx bx-arrow-back'></i><span>View Lab</span></a>
+            <a href="https://github.com/cdanescmd" target="_blank" rel="noopener"><i class='bx bxl-github'></i><span>GitHub</span></a>
+          </div>
+        </div>
+
+        <div class="portfolio-detail">
+          <p class="numb">05</p>
+          <h3>Vulnerability Assessment & Reporting</h3>
+          <p>Scanned and assessed systems for vulnerabilities and produced prioritized reports with remediation recommendations.</p>
+          <div class="tech">
+            <p>Nessus, OpenVAS, Vulnerability Management</p>
+          </div>
+          <div class="live-github">
+            <a href="labs/vulnerability-management.md" target="_blank" rel="noopener"><i class='bx bx-arrow-back'></i><span>View Lab</span></a>
+            <a href="https://github.com/cdanescmd" target="_blank" rel="noopener"><i class='bx bxl-github'></i><span>GitHub</span></a>
+          </div>
+        </div>
+
+        <div class="portfolio-detail">
+          <p class="numb">06</p>
+          <h3>Additional Labs</h3>
+          <p>Other hands-on exercises and lab notes covering cloud, identity, and endpoint scenarios.</p>
+          <div class="tech">
+            <p>Azure, AWS, Entra ID, Intune</p>
+          </div>
+          <div class="live-github">
+            <a href="https://github.com/cdanescmd" target="_blank" rel="noopener"><i class='bx bx-arrow-back'></i><span>GitHub</span></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <div class="portfolio-carousel">
+          <div class="img-slide">
+            <div class="img-item">
+              <img src="images/portfolio1.jpg" alt="project 1">
+            </div>
+            <div class="img-item">
+              <img src="images/portfolio2.jpg" alt="project 2">
+            </div>
+            <div class="img-item">
+              <img src="images/portfolio3.jpg" alt="project 3">
+            </div>
+            <div class="img-item">
+              <img src="images/portfolio4.jpg" alt="project 4">
+            </div>
+            <div class="img-item">
+              <img src="images/portfolio5.jpg" alt="project 5">
+            </div>
+            <div class="img-item">
+              <img src="images/portfolio6.jpg" alt="project 6">
+            </div>
+          </div>
+        </div>
+
+        <div class="navigation">
+          <button class="arrow-left disabled"><i class='bx bx-chevron-left'></i></button>
+          <button class="arrow-right"><i class='bx bx-chevron-right'></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT section -->
+  <section class="contact" id="contact">
+    <div class="contact-container">
+      <div class="contact-box">
+        <h2>Let's Work Together</h2>
+        <p class="desc">Looking for IT, SOC analyst, or SysAdmin support? I build operational playbooks, automate routine tasks, and support secure onboarding/offboarding.</p>
+
+        <div class="contact-detail">
+          <i class='bx bxs-phone'></i>
+          <div class="detail">
+            <p>Phone</p>
+            <p>(310) 925-1089</p>
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <i class='bx bxs-envelope'></i>
+          <div class="detail">
+            <p>Email</p>
+            <p>cdanes1@yahoo.com</p>
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <i class='bx bxs-map'></i>
+          <div class="detail">
+            <p>Location</p>
+            <p>Baton Rouge, LA</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-box">
+        <!-- mailto form (opens user's email client) -->
+        <form action="mailto:cdanes1@yahoo.com" method="post" enctype="text/plain">
+          <h2 class="heading">Contact <span>Me!</span></h2>
+          <div class="field-box">
+            <input type="text" name="Name" placeholder="Full Name" required>
+            <input type="email" name="Email" placeholder="Email Address" required>
+            <input type="text" name="Phone" placeholder="Phone Number">
+            <input type="text" name="Subject" placeholder="Subject" required>
+            <textarea name="Message" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="footer">
+    <p>© 2025 CLENIQ DANES | IT • SOC Analyst • SysAdmin</p>
+  </footer>
+
+  <!-- Custom JS -->
+  <script src="js/script.js"></script>
 </body>
-
 </html>

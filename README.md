@@ -4,11 +4,6 @@ title: Home
 ---
 
 # Welcome...
-
-<div style="text-align: center;">
-  <img src="assets/icons/morpheus.gif" alt="Animated Computer" style="width: 300px; height: auto;">
-</div>
-
 ---
 
 # I'm Cleniq.

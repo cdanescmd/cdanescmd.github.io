@@ -36,10 +36,7 @@ Conditional Access was configured in Entra ID to enforce layered authentication 
 
 Key policies:
 - Require MFA for all users  
-- Require MFA for admin roles  
-- Block access from untrusted countries  
-- Block legacy authentication  
-- Require compliant devices for SOC analysts  
+- Require MFA for admin roles 
 
 ![Conditional Access Policies](./configs/conditional-access.png)
 

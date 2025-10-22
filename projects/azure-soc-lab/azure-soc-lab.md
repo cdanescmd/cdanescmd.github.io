@@ -36,7 +36,7 @@ Conditional Access was configured in Entra ID to enforce layered authentication 
 
 Key policies:
 - Require MFA for all users  
-- Require MFA for admin roles 
+- Block app access to M365 users with insiders risk 
 
 ![Conditional Access Policies](./configs/conditional-access.png)
 

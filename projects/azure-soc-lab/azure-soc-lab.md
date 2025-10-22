@@ -44,12 +44,16 @@ This provided the foundation for identity-driven protection and adaptive access 
 
 ---
 
-## Microsoft Sentinel Configuration
+## Microsoft Sentinel & Defender for Cloud Configuration
 Microsoft Sentinel was the core SIEM in the lab. I connected data sources from Azure Activity, Defender for Cloud, and simulated endpoints to create a unified monitoring dashboard.
 
 ![Sentinel Workbook](./configs/sentinel-workbook.png)
 
-### Example Analytic Rules
+![Active Alerts](./configs/active-alerts.png)
+
+![MITRE ATT&CK Tactics](./configs/MITRE-ATT&CK-tactics.png)
+
+### Analytic Rules
 | Alert | Description | Response |
 |--------|--------------|----------|
 | Suspicious RDP Login | Detected RDP access from unfamiliar IP | Logic App sends Teams alert |

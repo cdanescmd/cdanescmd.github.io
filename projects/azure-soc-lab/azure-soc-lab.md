@@ -15,7 +15,7 @@ The goal was to demonstrate detection, investigation, and automation capabilitie
 ## Network Topology
 I designed a virtual network in Cisco Packet Tracer to represent various endpoints and segments connected to Azure resources. Logs from these simulated devices were collected in Microsoft Sentinel for monitoring.
 
-![Network Topology](./topology/topology.png)
+![Network Topology](./topology/azure-lab-topology.png)
 
 ---
 

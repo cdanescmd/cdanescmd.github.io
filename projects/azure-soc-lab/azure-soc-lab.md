@@ -41,7 +41,7 @@ Key policies:
 - Block legacy authentication  
 - Require compliant devices for SOC analysts  
 
-![Conditional Access Policies](./config/conditional-access.png)
+![Conditional Access Policies](./configs/conditional-access.png)
 
 This provided the foundation for identity-driven protection and adaptive access control across Azure resources.
 
@@ -50,7 +50,7 @@ This provided the foundation for identity-driven protection and adaptive access 
 ## Microsoft Sentinel Configuration
 Microsoft Sentinel was the core SIEM in the lab. I connected data sources from Azure Activity, Defender for Cloud, and simulated endpoints to create a unified monitoring dashboard.
 
-![Sentinel Workbook](./config/sentinel-workbook.png)
+![Sentinel Workbook](./configs/sentinel-workbook.png)
 
 ### Example Analytic Rules
 | Alert | Description | Response |

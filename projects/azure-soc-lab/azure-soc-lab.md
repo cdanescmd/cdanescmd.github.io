@@ -1,83 +1,86 @@
-# 🛡️ Azure SOC Lab — Cloud & Network Security Operations Project
+# Azure SOC Lab
 
 ## Overview
-This project is a **hands-on Azure Security Operations Center (SOC) lab** designed to simulate real-world monitoring, detection, and response within a hybrid environment.  
-It integrates **Microsoft Sentinel**, **Defender for Cloud**, and a **simulated on-prem network** (built in Cisco Packet Tracer) to demonstrate end-to-end threat visibility and incident response capabilities.
+This lab simulates a Security Operations Center (SOC) environment using Microsoft Azure.
+The goal was to demonstrate detection, investigation, and automation capabilities using:
+
+- Microsoft Sentinel  
+- Microsoft Defender for Cloud  
+- Entra ID (Conditional Access + Identity Management)  
+- Playbooks (Logic Apps)  
+- Cisco Packet Tracer for network topology design  
 
 ---
 
-## 🎯 Objectives
-- Build a functioning **SOC environment** using Azure services.
-- Configure **data connectors**, **analytic rules**, and **alert automation** in Microsoft Sentinel.
-- Simulate and respond to **realistic security events** (e.g., impossible travel, suspicious sign-ins).
-- Visualize an on-prem to cloud topology using **Cisco Packet Tracer**.
-- Strengthen understanding of **network infrastructure**, **VLANs**, **firewalls**, and **SIEM integration**.
+## Network Topology
+I designed a virtual network in Cisco Packet Tracer to represent various endpoints and segments connected to Azure resources. Logs from these simulated devices were collected in Microsoft Sentinel for monitoring.
+
+![Network Topology](./topology/topology.png)
 
 ---
 
-## 🧩 Architecture & Components
+## Azure Users and Role Assignments
+Within Entra ID (Azure AD), I created multiple users to simulate real SOC roles:
+- **SOC Analyst** – read-only access to Sentinel incidents  
+- **SOC Engineer** – configuration and playbook management  
+- **Admin** – Azure management and Conditional Access configuration  
 
-### ☁️ Azure Cloud Environment
-- **Azure Active Directory (Entra ID)** — User identities for simulated organization.
-- **Microsoft Sentinel (SIEM)** — Central log aggregation, alerting, and threat detection.
-- **Microsoft Defender for Cloud / CSPM** — Cloud posture management and alert generation.
-- **Log Analytics Workspace** — Storage and query engine for Sentinel data.
-- **Logic Apps** — Automated response workflows (email notifications to SOC team).
-- **SendGrid Integration** — Custom email notifications for Sentinel alerts.
+![Azure Users Overview](./config/azure-users.png)
 
-### 🖧 On-Prem Network Simulation (Cisco Packet Tracer)
-- **DSL Modem → Router → Firewall → Core Switch (3560)** → Access Switches (2950A, 2950B)
-- **Endpoints:** 5 Workstations + 5 Laptops (representing Azure AD users)
-- **Servers:**
-  - Domain Controller / Authentication Server (Simulated)
-  - SOC Server (Syslog / Monitoring)
-  - Web Server (Public-facing asset)
-- **VLANs:**
-  - VLAN 10 – HR / Finance  
-  - VLAN 20 – IT / SOC  
-  - VLAN 30 – Operations  
-  - VLAN 99 – Management
-
-### 🔒 Security Layers
-- **Firewall (ASA 5505)** controlling traffic between internal VLANs and external Internet.
-- **Trunked Core Switch** carrying multiple VLANs to access switches.
-- **Router Configured for WAN connectivity (DSL Cloud Simulation)**.
-- **Access Control Lists (ACLs)** for basic segmentation.
+This setup allowed me to assign permissions based on least privilege and observe how user identity plays a key role in security posture.
 
 ---
 
-## ⚙️ Configuration Summary
+## Conditional Access Policies
+Conditional Access was configured in Entra ID to enforce layered authentication and access control.
 
-| Component | Configuration Highlights |
-|------------|--------------------------|
-| **Microsoft Sentinel** | Connected to Log Analytics; alert rules for sign-in anomalies and impossible travel; Logic App email automation |
-| **Defender for Cloud** | Configured CSPM and workload protection; generated sample alerts synced to Sentinel |
-| **SendGrid** | Verified sender domain; configured email notifications for high-severity incidents |
-| **Cisco Packet Tracer Network** | Designed and configured 3-tier network topology (Core, Distribution, Access) with VLANs and routing |
-| **Firewall (ASA)** | Configured with outside/inside zones; NAT for Internet access simulation |
-| **Routers & Switches** | Configured trunk ports, VLANs, inter-VLAN routing, and IP addressing |
+Key policies:
+- Require MFA for all users  
+- Require MFA for admin roles  
+- Block access from untrusted countries  
+- Block legacy authentication  
+- Require compliant devices for SOC analysts  
 
----
+![Conditional Access Policies](./config/conditional-access.png)
 
-## 🧠 Key Learnings
-- Integrated **cloud-native SIEM (Sentinel)** with **Defender for Cloud** and custom automation.
-- Practiced **alert triage**, **SOC notification flow**, and **incident validation**.
-- Gained deeper understanding of **Azure security architecture** and **hybrid networking**.
-- Learned VLAN segmentation and trunking best practices.
-- Built a network topology replicating an enterprise environment.
+This provided the foundation for identity-driven protection and adaptive access control across Azure resources.
 
 ---
 
-## 📊 Sample Screenshots
-*(You can add these images after uploading to your repo)*
+## Microsoft Sentinel Configuration
+Microsoft Sentinel was the core SIEM in the lab. I connected data sources from Azure Activity, Defender for Cloud, and simulated endpoints to create a unified monitoring dashboard.
 
-1. **Azure Sentinel Dashboard**
-2. **Logic App Workflow for Alert Notification**
-3. **Defender for Cloud Sample Alerts**
-4. **Cisco Packet Tracer Topology Diagram**
-5. **Switch/Router Configurations**
+![Sentinel Workbook](./config/sentinel-workbook.png)
 
-```markdown
-![Azure Sentinel Dashboard](screenshots/sentinel-dashboard.png)
-![Network Topology](screenshots/azure-lab-topology.png)
-![Logic App Email Flow](screenshots/logicapp-email.png)
+### Example Analytic Rules
+| Alert | Description | Response |
+|--------|--------------|----------|
+| Suspicious RDP Login | Detected RDP access from unfamiliar IP | Logic App sends Teams alert |
+| Privilege Escalation | Role change event in Azure | Email alert + ticket creation |
+
+Custom workbooks were built to visualize alert frequency, severity, and response time.
+
+---
+
+## Playbooks and Automation
+Playbooks were created in Logic Apps to automate SOC workflows. For example:
+- Automatically notify analysts when Sentinel generates a high-severity alert  
+- Send Teams messages or emails with incident details  
+- Trigger follow-up actions like disabling compromised accounts  
+
+---
+
+## Lessons Learned
+- How Sentinel integrates with Defender for Cloud and Entra ID  
+- Practical use of Conditional Access for adaptive protection  
+- Automating responses using Logic Apps  
+- Importance of user roles and permissions in detection workflows  
+
+---
+
+## Future Improvements
+- Add M365 Defender integration  
+- Expand topology with simulated on-prem logs  
+- Integrate threat intelligence feeds  
+
+---

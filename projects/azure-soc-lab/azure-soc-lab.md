@@ -59,7 +59,7 @@ Microsoft Sentinel was the core SIEM in the lab. I connected data sources from A
 | Suspicious RDP Login | Detected RDP access from unfamiliar IP | Logic App sends Teams alert |
 | Privilege Escalation | Role change event in Azure | Email alert + ticket creation |
 
-Custom workbooks were built to visualize alert frequency, severity, and response time.
+
 
 ---
 
@@ -67,7 +67,9 @@ Custom workbooks were built to visualize alert frequency, severity, and response
 Playbooks were created in Logic Apps to automate SOC workflows. For example:
 - Automatically notify analysts when Sentinel generates a high-severity alert  
 - Send Teams messages or emails with incident details  
-- Trigger follow-up actions like disabling compromised accounts  
+- Trigger follow-up actions like disabling compromised accounts
+  
+ ![Logic Apps SOC Notification](./configs/logic-apps-soc-notification.png)
 
 ---
 

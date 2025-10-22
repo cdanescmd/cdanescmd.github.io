@@ -25,7 +25,7 @@ Within Entra ID (Azure AD), I created multiple users to simulate real SOC roles:
 - **SOC Engineer** – configuration and playbook management  
 - **Admin** – Azure management and Conditional Access configuration  
 
-![Azure Users Overview](./config/azure-users.png)
+![Azure Users Overview](./configs/azure-users.png)
 
 This setup allowed me to assign permissions based on least privilege and observe how user identity plays a key role in security posture.
 

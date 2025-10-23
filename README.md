@@ -23,14 +23,11 @@ Security Analyst with hands-on experience in incident response, SIEM monitoring,
 
 ## Featured Labs and Projects
 
-| **Skill**                                   | **Associated Projects**                           |
+| **Skill**                                   | **Associated Projects**                          |
 |---------------------------------------------|--------------------------------------------------|
-| SIEM Implementation and Log Analysis        | [SIEM & Log Analysis Lab](labs/siem-log-analysis.md)                 |
-| Threat Hunting and Network Traffic Analysis | [Threat Hunting Lab](labs/threat-hunting.md)                 |
-| Security Automation and Scripting           | [Security Automation Lab](labs/security-automation.md) |
-| Incident Reporting and Documentation        | [Incident Reporting Lab](labs/incident-reporting-lab.md)                 |
-| Vulnerability Assessment and Reporting      | [Vulnerability Assessment Lab](labs/vulnerability-management.md) |
-
+| Azure SOC Fundamentals Lab                  | [Azure SOC Fundamentals Lab](labs/siem-log-analysis.md)|
+| Threat Hunting and Network Traffic Analysis | [Threat Hunting Lab](labs/threat-hunting.md)|
+| Security Automation and Scripting           | [Security Automation Lab](labs/security-automation.md)|
 ---
 
 ## Tools and Technologies
@@ -51,12 +48,6 @@ Security Analyst with hands-on experience in incident response, SIEM monitoring,
 <div>
   <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
   <img src="https://img.shields.io/badge/-Zeek-777BB4?&style=for-the-badge&logo=Zeek&logoColor=white" />  
-</div>
-
-### Automation and Scripting
-<div>
-    <img src="https://img.shields.io/badge/-Python-3776AB?&style=for-the-badge&logo=python&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Bash-4EAA25?&style=for-the-badge&logo=gnubash&logoColor=white" />
 </div>
 
 ### Cloud Platforms

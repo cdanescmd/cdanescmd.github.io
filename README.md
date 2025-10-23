@@ -9,7 +9,7 @@ title: Home
 # I'm Cleniq.
 **`Security Enthusiast (InfoSec|Compliance)`**
 
-I am a cybersecurity professional with a strong foundation in technical support, risk management, and practical hands-on projects. I’ve built virtual labs, automated workflows, and conducted vulnerability assessments to gain deep insights into modern security challenges. My work demonstrates a commitment to continuous learning and a proactive approach to safeguarding systems.
+Security Analyst with hands-on experience in incident response, SIEM monitoring, and regulatory compliance (SOC 2, FINRA). Skilled in vulnerability management support, security controls assessment, and audit readiness. Strong understanding of NIST CSF and ISO 27001 frameworks with a focus on improving security posture and cross-team collaboration.
 
 ## Languages and Tools
 

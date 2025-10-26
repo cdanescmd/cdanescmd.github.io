@@ -2,150 +2,140 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cleniq Danes | Projects</title>
-    <!-- boxicons -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <!-- devicons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-    <!-- custom css -->
-    <link rel="stylesheet" href="/css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cleniq Danes | Projects</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+  <header class="active">
+    <a href="/" class="logo">Cleniq.</a>
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/resume/">Resume</a>
+      <a href="/projects/" class="active">Projects</a>
+      <a href="/contact/">Contact</a>
+    </nav>
+  </header>
 
-    <!-- header -->
-    <header class="active">
-        <a href="/" class="logo">Cleniq.</a>
+  <div class="bars-box active">
+    <div class="bar" style="--i:6;"></div>
+    <div class="bar" style="--i:5;"></div>
+    <div class="bar" style="--i:4;"></div>
+    <div class="bar" style="--i:3;"></div>
+    <div class="bar" style="--i:2;"></div>
+    <div class="bar" style="--i:1;"></div>
+  </div>
 
-        <i class='bx bx-menu' id="menu-icon"></i>
-
-        <nav>
-            <a href="/">Home</a>
-            <a href="/resume">Resume</a>
-            <a href="/projects" class="active">Projects</a>
-            <a href="/contact">Contact</a>
-        </nav>
-    </header>
-
-    <!-- bars background -->
-    <div class="bars-box active">
-        <div class="bar" style="--i:6;"></div>
-        <div class="bar" style="--i:5;"></div>
-        <div class="bar" style="--i:4;"></div>
-        <div class="bar" style="--i:3;"></div>
-        <div class="bar" style="--i:2;"></div>
-        <div class="bar" style="--i:1;"></div>
-    </div>
-
-    <!-- projects section -->
-    <section class="portfolio">
-        <h2 class="heading">Latest <span>Projects</span></h2>
-        <div class="portfolio-container">
-            <div class="portfolio-box">
-                <div class="portfolio-detail active">
-                    <p class="numb">01</p>
-                    <h3>Azure SOC Fundamentals Lab</h3>
-                    <p>A simulated SOC environment using Microsoft Sentinel, Defender for Cloud, and Logic Apps.</p>
-                    <div class="tech">
-                        <p>Sentinel, Defender for Cloud, Logic Apps</p>
-                    </div>
-                    <div class="live-github">
-                        <a href="https://github.com/cdanescmd/cdanescmd.github.io/blob/main/projects/azure-soc-lab/azure-soc-lab.md"><i class='bx bxl-github'></i><span>Github Repository</span></a>
-                    </div>
-                </div>
-
-                <div class="portfolio-detail">
-                    <p class="numb">02</p>
-                    <h3>Splunk Network Security Monitoring & Threat Detection Lab</h3>
-                    <p>A hands-on environment for collecting, analyzing, and detecting network-based threats using Splunk dashboards, alerts, and correlation searches.</p>
-                    <div class="tech">
-                        <p>Splunk (ES), Splunk SOAR, Splunk STREAM</p>
-                    </div>
-                    <div class="live-github">
-                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
-                        <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
-                    </div>
-                </div>
-
-                <div class="portfolio-detail">
-                    <p class="numb">03</p>
-                    <h3>CTF Lab: Web Exploitation & Basic Cryptography (coming soon)</h3>
-                    <p>A lightweight introductory CTF featuring simple web and cryptography challenges designed to teach basic exploitation and analysis techniques in a safe, self-contained environment.</p>
-                    <div class="tech">
-                        <p>Web Security, Cryptography, Cybersecurity</p>
-                    </div>
-                    <div class="live-github">
-                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
-                        <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
-                    </div>
-                </div>
-
-                <div class="portfolio-detail">
-                    <p class="numb">04</p>
-                    <h3>Web Exploitation CTF Lab: Parameter Manipulation & Input Discovery (coming soon)</h3>
-                    <p>A beginner-friendly web challenge focused on identifying insecure parameters and exploiting hidden inputs to reveal protected data.</p>
-                    <div class="tech">
-                        <p>Web Exploitation, Flask, Enumeration</p>
-                    </div>
-                    <div class="live-github">
-                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
-                        <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
-                    </div>
-                </div>
-
-                <div class="portfolio-detail">
-                    <p class="numb">05</p>
-                    <h3>Cryptography CTF Lab: XOR Cipher Analysis & Decryption</h3>
-                    <p>A lightweight cryptography challenge focused on reversing a single-byte XOR cipher to reveal an encoded flag.</p>
-                    <div class="tech">
-                        <p>Cryptography, XOR, Encoding, Decryption</p>
-                    </div>
-                    <div class="live-github">
-                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
-                        <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
-                    </div>
-                </div>
-
-                <div class="portfolio-detail">
-                    <p class="numb">06</p>
-                    <h3>Forensics CTF Lab: Network Traffic Analysis & Data Extraction</h3>
-                    <p>A forensic analysis exercise where participants examine captured network traffic to uncover hidden HTTP data and extract embedded flags.</p>
-                    <div class="tech">
-                        <p>Forensics, Wireshark, Packet Inspection, PCAP</p>
-                    </div>
-                    <div class="live-github">
-                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
-                        <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="portfolio-box">
-                <div class="portfolio-carousel">
-                    <div class="img-slide">
-                        <div class="img-item"><img src="images/portfolio1.jpg"></div>
-                        <div class="img-item"><img src="images/portfolio2.jpg"></div>
-                        <div class="img-item"><img src="images/portfolio3.jpg"></div>
-                        <div class="img-item"><img src="images/portfolio4.jpg"></div>
-                        <div class="img-item"><img src="images/portfolio5.jpg"></div>
-                        <div class="img-item"><img src="images/portfolio6.jpg"></div>
-                    </div>
-                </div>
-
-                <div class="navigation">
-                    <button class="arrow-left disabled"><i class='bx bx-chevron-left'></i></button>
-                    <button class="arrow-right"><i class='bx bx-chevron-right'></i></button>
-                </div>
-            </div>
+  <!-- projects section (original content preserved exactly) -->
+  <section class="portfolio active">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <div class="portfolio-detail active">
+          <p class="numb">01</p>
+          <h3>Azure SOC Fundamentals Lab</h3>
+          <p>A simulated SOC environment using Microsoft Sentinel, Defender for Cloud, and Logic Apps.</p>
+          <div class="tech">
+            <p>Sentinel, Defender for Cloud, Logic Apps</p>
+          </div>
+          <div class="live-github">
+            <a href="https://github.com/cdanescmd/cdanescmd.github.io/blob/main/projects/azure-soc-lab/azure-soc-lab.md"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+          </div>
         </div>
-    </section>
 
-    <!-- custom js -->
-    <script src="js/script.js"></script>
+        <div class="portfolio-detail">
+          <p class="numb">02</p>
+          <h3>Splunk Network Security Monitoring & Threat Detection Lab</h3>
+          <p>A hands-on environment for collecting, analyzing, and detecting network-based threats using Splunk dashboards, alerts, and correlation searches.</p>
+          <div class="tech">
+            <p>Splunk (ES), Splunk SOAR, Splunk STREAM</p>
+          </div>
+          <div class="live-github">
+            <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+            <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+          </div>
+        </div>
+
+        <div class="portfolio-detail">
+          <p class="numb">03</p>
+          <h3>CTF Lab: Web Exploitation & Basic Cryptography (coming soon)</h3>
+          <p>A lightweight introductory CTF featuring simple web and cryptography challenges designed to teach basic exploitation and analysis techniques in a safe, self-contained environment.</p>
+          <div class="tech">
+            <p>Web Security, Cryptography, Cybersecurity</p>
+          </div>
+          <div class="live-github">
+            <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+            <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+          </div>
+        </div>
+
+        <div class="portfolio-detail">
+          <p class="numb">04</p>
+          <h3>Web Exploitation CTF Lab: Parameter Manipulation & Input Discovery (coming soon)</h3>
+          <p>A beginner-friendly web challenge focused on identifying insecure parameters and exploiting hidden inputs to reveal protected data.</p>
+          <div class="tech">
+            <p>Web Exploitation, Flask, Enumeration</p>
+          </div>
+          <div class="live-github">
+            <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+            <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+          </div>
+        </div>
+
+        <div class="portfolio-detail">
+          <p class="numb">05</p>
+          <h3>Cryptography CTF Lab: XOR Cipher Analysis & Decryption</h3>
+          <p>A lightweight cryptography challenge focused on reversing a single-byte XOR cipher to reveal an encoded flag.</p>
+          <div class="tech">
+            <p>Cryptography, XOR, Encoding, Decryption</p>
+          </div>
+          <div class="live-github">
+            <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+            <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+          </div>
+        </div>
+
+        <div class="portfolio-detail">
+          <p class="numb">06</p>
+          <h3>Forensics CTF Lab: Network Traffic Analysis & Data Extraction</h3>
+          <p>A forensic analysis exercise where participants examine captured network traffic to uncover hidden HTTP data and extract embedded flags.</p>
+          <div class="tech">
+            <p>Forensics, Wireshark, Packet Inspection, PCAP</p>
+          </div>
+          <div class="live-github">
+            <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+            <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <div class="portfolio-carousel">
+          <div class="img-slide">
+            <div class="img-item"><img src="images/portfolio1.jpg" alt="Portfolio 1"></div>
+            <div class="img-item"><img src="images/portfolio2.jpg" alt="Portfolio 2"></div>
+            <div class="img-item"><img src="images/portfolio3.jpg" alt="Portfolio 3"></div>
+            <div class="img-item"><img src="images/portfolio4.jpg" alt="Portfolio 4"></div>
+            <div class="img-item"><img src="images/portfolio5.jpg" alt="Portfolio 5"></div>
+            <div class="img-item"><img src="images/portfolio6.jpg" alt="Portfolio 6"></div>
+          </div>
+        </div>
+
+        <div class="navigation">
+          <button class="arrow-left disabled"><i class='bx bx-chevron-left'></i></button>
+          <button class="arrow-right"><i class='bx bx-chevron-right'></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/script.js"></script>
 </body>
 
 </html>
-

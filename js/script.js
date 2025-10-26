@@ -1,3 +1,13 @@
+// Only run single-page animation logic on the home page
+const isHomePage = window.location.pathname === '/' || window.location.pathname.endsWith('index.html');
+if (!isHomePage) {
+    document.querySelector('header')?.classList.add('active');
+    document.querySelector('.bars-box')?.classList.add('active');
+    document.querySelector('section')?.classList.add('active');
+    // Skip the rest of the JS file
+    return;
+}
+
 // === Element references ===
 const navLinks = document.querySelectorAll('header nav a');
 const logoLink = document.querySelector('.logo');

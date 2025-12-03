@@ -892,4 +892,12 @@ section.active {
     .contact-box h2 {
         font-size: 3.5rem;
     }
+    
+}
+/* Resize ONLY Portfolio 2 image */
+.portfolio-carousel .img-slide .img-item:nth-child(2) img {
+    object-fit: contain;   /* keep full image visible */
+    width: 90%;            /* adjust as needed */
+    height: auto;          /* maintain aspect ratio */
+    margin: 0 auto;        /* centers the image */
 }

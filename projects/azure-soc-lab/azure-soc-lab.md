@@ -130,8 +130,7 @@ Examples:
 - Deploy Intune to manage Windows/macOS devices:
 - Compliance policies (encryption, OS version, password rules)
 - App deployment
-- 
-Autopilot provisioning
+- Autopilot provisioning
 
 Why it matters: Modern endpoint management is a core SysAdmin skill. 
 

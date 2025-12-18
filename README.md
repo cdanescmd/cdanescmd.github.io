@@ -40,7 +40,7 @@ IAM-focused analyst with experience in identity lifecycle management, access con
  <img src="https://img.shields.io/badge/-NIST%20CSF-4B4B4B?&style=for-the-badge&logoColor=white" />
 </div>
 
-### Network Analysis
+### Network Analysis (foundational)
 <div>
   <img src="https://img.shields.io/badge/-Nmap-00457C?&style=for-the-badge&logoColor=white" />
   <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />

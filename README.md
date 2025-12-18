@@ -3,31 +3,28 @@
 ---
 
 # I'm Cleniq.
-**`SOC Analyst | SysAdmin`**
+**`IAM Analyst | Identity & Access Management | Cloud IAM`**
 
-Security Analyst with hands-on experience in incident response, SIEM monitoring, and regulatory compliance (SOC 2, FINRA). Skilled in vulnerability management support, security controls assessment, and audit readiness. Strong understanding of NIST CSF and ISO 27001 frameworks with a focus on improving security posture and cross-team collaboration.
+IAM-focused analyst with experience in identity lifecycle management, access control, and authentication in regulated environments (FINRA). Hands-on experience with Microsoft Entra ID, Conditional Access, MFA, and identity monitoring using Microsoft Sentinel. Familiar with NIST CSF and audit-aligned access controls.
 
-## Languages and Tools
+## Identity and Automation Tools
 
 <img align="left" alt="Linux" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
 <img align="left" alt="Linux" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-original.svg" />
 <img align="left" alt="Linux" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />
-<img align="left" alt="HTML" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
-<img align="left" alt="CSS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
-<img align="left" alt="JavaScript" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-<img align="left" alt="Python" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
 <img align="left" alt="GitHub" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
 <br />
 
 ---
 
-## Featured Labs and Projects
+## Featured IAM Labs and Projects
 
-| **Skill**                                   | **Associated Projects**                          |
-|---------------------------------------------|--------------------------------------------------|
-| Azure SOC Fundamentals Lab                  | [Azure SOC Fundamentals Lab](labs/siem-log-analysis.md)|
-| Threat Hunting and Network Traffic Analysis | [Threat Hunting Lab](labs/threat-hunting.md)|
-| Security Automation and Scripting           | [Security Automation Lab](labs/security-automation.md)|
+| **Skill**                                        | **Associated Projects**                          |
+|--------------------------------------------------|-------------------------------------------------------|
+| Azure Identity and Security Lab                  |[Azure Identity and Security Lab]([labs/siem-log-analysis.md](https://github.com/cdanescmd/cdanescmd.github.io/blob/main/projects/azure/azure-identity-and-security-lab.md))|
+| Suricata Network Security Lab                    |[Suricata Network Security Lab]([labs/security-automation.md](https://github.com/cdanescmd/Suricata-Network-Security-Lab/blob/main/README.md))|
+| SOC Alert Parser (Powershell Automation Tool)    |[SOC Alert Parser]([labs/threat-hunting.md](https://github.com/cdanescmd/SOC-Alert-Parser-Demo/blob/main/README.md))|
+
 ---
 
 ## Tools and Technologies
@@ -35,19 +32,20 @@ Security Analyst with hands-on experience in incident response, SIEM monitoring,
 ### SIEM
 <div>
     <img src="https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
 </div>
 
-### Vulnerability Scanning
+### Frameworks & Compliance
 <div>
-    <img src="https://img.shields.io/badge/-Nessus-1f77b4?&style=for-the-badge&logo=tenable&logoColor=white" />
-    <img src="https://img.shields.io/badge/-OpenVAS-009639?&style=for-the-badge&logo=openvpn&logoColor=white" />
+ <img src="https://img.shields.io/badge/-FINRA-003A8F?&style=for-the-badge&logoColor=white" />
+ <img src="https://img.shields.io/badge/-NIST%20CSF-4B4B4B?&style=for-the-badge&logoColor=white" />
 </div>
 
 ### Network Analysis
 <div>
+  <img src="https://img.shields.io/badge/-Nmap-00457C?&style=for-the-badge&logoColor=white" />
   <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Zeek-777BB4?&style=for-the-badge&logo=Zeek&logoColor=white" />  
+  <img src="https://img.shields.io/badge/-TCP/IP-2F2F2F?&style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Network_Segmentation-5A5A5A?&style=for-the-badge&logoColor=white" />
 </div>
 
 ### Cloud Platforms
@@ -57,9 +55,7 @@ Security Analyst with hands-on experience in incident response, SIEM monitoring,
 
 ## Certifications
 <div>
-    <img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />
     <img src="https://img.shields.io/badge/-Network%2B-007ACC?&style=for-the-badge&logo=CompTIA&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Certified%20Ethical%20Hacker%20(in%20progress)-purple?&style=for-the-badge&logo=hack-the-box&logoColor=white" />
 </div>
 
 ## Contact

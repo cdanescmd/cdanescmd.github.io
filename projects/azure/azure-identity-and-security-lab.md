@@ -132,6 +132,4 @@ Examples:
 - App deployment
 - Autopilot provisioning
 
-Why it matters: Modern endpoint management is a core SysAdmin skill. 
-
 ---

@@ -17,13 +17,14 @@ I've always been naturally curious about how things work. Not just on the surfac
 
 ---
 
-## Featured IAM Labs and Projects
+## Featured Labs and Projects
 
-| **Skill**                                        | **Associated Projects**                          |
-|--------------------------------------------------|-------------------------------------------------------|
-| Azure Identity and Security Lab                  |[Azure Identity and Security Lab]([labs/siem-log-analysis.md](https://github.com/cdanescmd/cdanescmd.github.io/blob/main/projects/azure/azure-identity-and-security-lab.md))|
-| Suricata Network Security Lab                    |[Suricata Network Security Lab]([labs/security-automation.md](https://github.com/cdanescmd/Suricata-Network-Security-Lab/blob/main/README.md))|
-| SOC Alert Parser (Powershell Automation Tool)    |[SOC Alert Parser]([labs/threat-hunting.md](https://github.com/cdanescmd/SOC-Alert-Parser-Demo/blob/main/README.md))|
+| **Skill**                                     | **Associated Projects** |
+|----------------------------------------------|------------------------|
+| Azure Identity and Security Lab              | [Azure Identity and Security Lab](https://github.com/cdanescmd/cdanescmd.github.io/blob/main/projects/azure/azure-identity-and-security-lab.md) |
+| Suricata Network Security Lab                | [Suricata Network Security Lab](https://github.com/cdanescmd/Suricata-Network-Security-Lab/blob/main/README.md) |
+| Threat Intelligence Honeypot                 | [Threat Intelligence Honeypot](https://github.com/cdanescmd/Threat-Intelligence-Honeypot/blob/main/README.md) |
+| SOC Alert Parser (PowerShell Automation Tool)| [SOC Alert Parser](https://github.com/cdanescmd/SOC-Alert-Parser-Demo/blob/main/README.md) |
 
 ---
 

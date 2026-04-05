@@ -7,14 +7,6 @@
 
 I've always been naturally curious about how things work. Not just on the surface, but underneath. That curiosity is what pulled me toward IT and eventually cybersecurity. Outside of work, that curiosity doesn't switch off. I'm just as interested in understanding how the world works as I am in understanding how systems do. The tech side just happens to be where I've found the most opportunity to put that to use.
 
-## Identity and Automation Tools
-
-<img align="left" alt="Linux" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
-<img align="left" alt="Linux" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-original.svg" />
-<img align="left" alt="Linux" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />
-<img align="left" alt="GitHub" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-<br />
-
 ---
 
 ## Featured Labs and Projects

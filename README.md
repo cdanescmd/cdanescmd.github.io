@@ -3,7 +3,7 @@
 ---
 
 # I'm Cleniq.
-**`Tech & Cybersecurity Professional | Azure | Entra | M365 | Active Directory`**
+**`Tech & Cybersecurity Professional`**
 
 I've always been naturally curious about how things work. Not just on the surface, but underneath. That curiosity is what pulled me toward IT and eventually cybersecurity. Outside of work, that curiosity doesn't switch off. I'm just as interested in understanding how the world works as I am in understanding how systems do. The tech side just happens to be where I've found the most opportunity to put that to use.
 
@@ -30,9 +30,9 @@ I've always been naturally curious about how things work. Not just on the surfac
 
 ### SIEM
 <div>
-    <img src="https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Splunk-000000?style=for-the-badge&logo=splunk&logoColor=green" />
-    <img src="https://img.shields.io/badge/Elastic-005571?style=for-the-badge&logo=elastic&logoColor=white" />
+  <img src="https://img.shields.io/badge/Microsoft_Sentinel-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" />
+  <img src="https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Elastic-005571?style=for-the-badge&logo=elastic&logoColor=white" />
 </div>
 
 ### Frameworks & Compliance
@@ -41,18 +41,31 @@ I've always been naturally curious about how things work. Not just on the surfac
   <img src="https://img.shields.io/badge/NIST_CSF-800000?style=for-the-badge&logoColor=white" />
 </div>
 
-### Network Analysis (foundational)
+### Network Analysis (Foundational)
 <div>
   <img src="https://img.shields.io/badge/Nmap-214478?style=for-the-badge&logoColor=white" />
   <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" />
-  <img src="https://img.shields.io/badge/TCP%2FIP-0A0A0A?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/TCP/IP-0A0A0A?style=for-the-badge&logoColor=white" />
   <img src="https://img.shields.io/badge/Network_Segmentation-6A0DAD?style=for-the-badge&logoColor=white" />
 </div>
 
 ### Cloud Platforms
 <div>
   <img src="https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
-  <img src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logoColor=black" />
+  <img src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=black" />
+  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
+</div>
+
+### Offensive / Pentesting Tools
+<div>
+  <img src="https://img.shields.io/badge/Nmap-214478?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/Metasploit-2E2E2E?style=for-the-badge&logo=metasploit&logoColor=white" />
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" />
+  <img src="https://img.shields.io/badge/Aircrack--ng-2C3E50?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenVAS-4CAF50?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/Hydra-6A0DAD?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLmap-CC2927?style=for-the-badge&logoColor=white" />
 </div>
 
 ## Certifications
@@ -63,6 +76,6 @@ I've always been naturally curious about how things work. Not just on the surfac
 </div>
 
 ## Contact
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/cdanes1)
+Let's Connect! [LinkedIn](https://www.linkedin.com/in/cdanes1)
 
 ###

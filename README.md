@@ -19,14 +19,12 @@ I've always been naturally curious about how things work. Not just on the surfac
 
 ## Featured Labs and Projects
 
-| **Skill**                                     | **Associated Projects** |
-|----------------------------------------------|------------------------|
-| Azure Identity and Security Lab              | [Azure Identity and Security Lab](https://github.com/cdanescmd/cdanescmd.github.io/blob/main/projects/azure/azure-identity-and-security-lab.md) |
-| Suricata Network Security Lab                | [Suricata Network Security Lab](https://github.com/cdanescmd/Suricata-Network-Security-Lab/blob/main/README.md) |
-| Threat Intelligence Honeypot                 | [Threat Intelligence Honeypot](https://github.com/cdanescmd/Threat-Intelligence-Honeypot/blob/main/README.md) |
-| SOC Alert Parser (PowerShell Automation Tool)| [SOC Alert Parser](https://github.com/cdanescmd/SOC-Alert-Parser-Demo/blob/main/README.md) |
-
----
+| **Skill** | **Associated Projects** |
+|----------|------------------------|
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" width="20"/> Azure Identity and Security Lab | [Azure Identity and Security Lab](https://github.com/cdanescmd/cdanescmd.github.io/blob/main/projects/azure/azure-identity-and-security-lab.md) |
+| <img src="https://suricata.io/wp-content/uploads/2019/12/cropped-suricata-logo.svg" width="20"/> Suricata Network Security Lab | [Suricata Network Security Lab](https://github.com/cdanescmd/Suricata-Network-Security-Lab/blob/main/README.md) |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="20"/> Threat Intelligence Honeypot | [Threat Intelligence Honeypot](https://github.com/cdanescmd/Threat-Intelligence-Honeypot/blob/main/README.md) |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-original.svg" width="20"/> SOC Alert Parser (Automation Tool) | [SOC Alert Parser](https://github.com/cdanescmd/SOC-Alert-Parser-Demo/blob/main/README.md) |
 
 ## Tools and Technologies
 
